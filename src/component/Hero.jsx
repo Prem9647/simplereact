@@ -5,8 +5,11 @@ function Hero() {
 
       {/* HERO SECTION */}
       <div
-        className="hero" >
-        <img src={heroo} alt="" />
+        className="hero"
+        style={{
+        backgroundImage: `url(${heroo})`,
+      }} >
+        
         </div>
     
 
